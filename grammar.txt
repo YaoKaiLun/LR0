@@ -1,0 +1,9 @@
+S' E A B
+a b c d
+S':E
+E:aA
+E:bB
+A:cA
+A:d
+B:cB
+B:d

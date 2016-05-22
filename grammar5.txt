@@ -1,0 +1,9 @@
+E' E T F
+i + * ( )
+E':E
+E:E+T
+E:T
+T:T*F
+T:F
+F:(E)
+F:i

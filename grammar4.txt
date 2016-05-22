@@ -1,0 +1,7 @@
+S A B
+a c e b d
+S':S
+S:aAcBe
+A:b
+A:Ab
+B:d

@@ -1,0 +1,8 @@
+S' P
+m r i ,
+S':P
+P:m,r
+P:m,i
+P:r,r
+P:r,i
+P:r,m
