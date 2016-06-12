@@ -4,7 +4,6 @@
 using namespace std;
 class LR0{
 private:
-    friend class MainWindow;
     int grammar_length,item_set_length,dfa_length,vn_length,vt_length;
     string filename;
     static const int GRAMMAR_COUNT=100;
@@ -62,6 +61,7 @@ public:
     bool writeDataToFile();
 };
 LR0::LR0(string _filename){
+    //cout<<"filename:"<<_filename<<endl;
     filename=_filename;
     grammar_length=0;
     item_set_length=0;
@@ -110,9 +110,11 @@ bool LR0::exec(){
         //printDFA();
         makeTable();
         printTable();
+        //cout<<"true"<<endl;
         return true;
     }
     else{
+        //cout<<"false"<<endl;
         return false;
     }
 }
